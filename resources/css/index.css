@@ -1,0 +1,119 @@
+nav ul li .hactive {
+  color: #ffa500;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  position: relative;
+  top: 115px;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+#ourvalues-text {
+  font-size: 19px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 3px solid #23a7d3;
+  border-radius: 10px;
+}
+
+.main-header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.main-header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0 35%;
+  border-radius: 15px;
+}
+
+.company-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+  border-top: 3px solid #23a7d3;
+  border-radius: 3px;
+}
+
+.view-services-btn {
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  margin-top: 75px;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 14px;
+  background-color: #23a7d3;
+  color: #fff;
+}
+
+.view-services-btn:hover {
+  color: #ffa500;
+}
+
+.external-items-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item-container svg {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.item-container p {
+  margin: auto;
+  padding-top: 45px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 7vh;
+}
+
+.address-container h1 {
+  margin: auto;
+  font-size: 24px;
+  color: #23a7d3;
+}
+
+.address-container p {
+  margin: auto;
+}
+
+footer {
+  position: relative;
+  bottom: -20vh;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}

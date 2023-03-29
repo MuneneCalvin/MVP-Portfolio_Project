@@ -1,0 +1,243 @@
+nav ul li .bactive {
+  color: #ffa500;
+}
+
+main {
+  position: relative;
+  top: 115px;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.register {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.register .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #23a7d3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.register .sub-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #23a7d3;
+  text-align: center;
+}
+
+.register .sub-title-special {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #23a7d3;
+  text-align: left;
+}
+
+.register .form {
+  width: 100%;
+}
+
+.register .form .inputfield {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.register .form .inputfield-2 {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.register .form .inputfield-2 input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+.register .form .inputfield-2 label {
+  color: black;
+  font-size: 14px;
+}
+
+.register .form .inputfield label {
+  width: 200px;
+  color: black;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.register .form .inputfield-chk {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.register .form .inputfield-chk label {
+  color: black;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.register .form .inputfield .input,
+.register .form .inputfield .textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.register .form .inputfield .textarea {
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.register .form .inputfield .custom_select {
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.register .form .inputfield .custom_select:before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.inputfield p {
+  font-size: 14px;
+  color: #757575;
+}
+
+.inputBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.register .form .inputBtn .btn {
+  width: 50%;
+  padding: 8px 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  border: 0px;
+  background: #23a7d3;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.register .form .inputBtn .btn:hover {
+  color: #ffa500;
+}
+
+/* IGNORE THE EXRA CSS BELOW */
+
+.register .form .inputfield:last-child {
+  margin-bottom: 0;
+}
+
+.register .form .inputfield .input.error {
+  border: 1px solid #e74c3c;
+}
+
+.small {
+  margin-left: 1rem;
+  color: red;
+}
+
+/* Invoice */
+
+.invoice-title {
+  text-align: center;
+  font-weight: 400;
+  color: #febf6e;
+  margin-bottom: 15px;
+  font-size: 24px;
+  width: 50%;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7); */
+  margin: auto;
+  /* overflow: hidden; */
+}
+
+td,
+th {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+th {
+  background-color: #febf6e;
+  color: #f5fafc;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+tr {
+  width: 100%;
+  background-color: #f5fafc;
+}
+
+/* tr:nth-child(even) {
+  background-color: #eeeeee;
+} */
+
+.confirm-form {
+  width: 100%;
+}
+
+.confirm-inputBtn {
+  display: flex;
+}
+
+.confirm-btn {
+  width: 10%;
+  padding: 8px 10px;
+  margin: auto;
+  font-size: 15px;
+  border: 0px;
+  background: #41a372;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.confirm-btn:hover {
+  background-color: #118c4f;
+}
+
+.alert-success {
+  width: 100%;
+  background-color: #4bb543;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}

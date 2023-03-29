@@ -1,0 +1,74 @@
+nav ul li .ractive {
+  color: #ffa500;
+}
+
+.username {
+  position: fixed;
+  top: 75px;
+  left: 300px;
+  color: #fff;
+  background-color: #ffa500;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: 3;
+}
+
+main {
+  position: relative;
+  top: 115px;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7);
+  margin: auto;
+  /* overflow: hidden; */
+}
+
+td,
+th {
+  padding: 15px 20px;
+  text-align: center;
+}
+
+th {
+  background-color: #23a7d3;
+  color: #fafafa;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+tr {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.edit-btn {
+  color: #fff;
+  background-color: #23a7d3;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.edit-btn:hover {
+  color: #ffa500;
+}
+
+.alert-success {
+  width: 100%;
+  background-color: #4bb543;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
